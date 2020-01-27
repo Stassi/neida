@@ -1,0 +1,25 @@
+# neida
+[![build status][travis badge]][travis url]
+[![npm dependencies][david dependencies badge]][david dependencies url]
+[![npm dev dependencies][david dev dependencies badge]][david dev dependencies url]
+[![license][license badge]][license file]
+[![npm bundle size (minified)][bundlephobia badge]][bundlephobia url]
+[![npm bundle size (minified + gzip)][bundlephobia badge zip]][bundlephobia url]
+[![node supported versions][node badge]][package file]
+[![npm latest version][npm badge]][npm url]
+
+[bundlephobia badge]: https://img.shields.io/bundlephobia/min/neida.svg
+[bundlephobia badge zip]: https://img.shields.io/bundlephobia/minzip/neida.svg
+[bundlephobia url]: https://bundlephobia.com/result?p=neida (bundlephobia: neida)
+[david dependencies badge]: https://img.shields.io/david/Stassi/neida
+[david dependencies url]: https://david-dm.org/Stassi/neida (david: neida)
+[david dev dependencies badge]: https://img.shields.io/david/dev/Stassi/neida
+[david dev dependencies url]: https://david-dm.org/Stassi/neida?type=dev (david: neida dev)
+[license badge]: https://img.shields.io/npm/l/neida.svg
+[license file]: LICENSE (neida license)
+[node badge]: https://img.shields.io/node/v/neida.svg
+[npm badge]: https://img.shields.io/npm/v/neida.svg
+[npm url]: https://www.npmjs.com/package/neida (npm: neida)
+[package file]: package.json (neida package.json)
+[travis badge]: https://img.shields.io/travis/com/Stassi/neida.svg
+[travis url]: https://travis-ci.com/Stassi/neida (travis: neida)
