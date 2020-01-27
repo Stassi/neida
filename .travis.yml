@@ -1,0 +1,21 @@
+os:
+  - linux
+  - osx
+  - windows
+language: node_js
+node_js:
+  - 8
+  - 10
+  - 12
+  - 13
+  - node
+before_deploy: npm run prepublishOnly
+deploy:
+  provider: npm
+  email: andreas@stassi.net
+  api_token:
+    secure: NoCbahRS7PmWA6FP16Lkth86Hq+n5SNVu/lQwKMGjUTomDHxN6A2Zq8NoAFrCxAuMoUneEKdco+WOx9r3F+5Yq1Q3c1egsv4aXOBL6m548a9VqFjpaqx73ow3JW2+nF6fJwoSX5kXHmwSZ/kjrQHsmzUMvX6SfwtT99svgfs04DCVryo1m/NfEva4b+0BrVf+oIZH+eLaqbdadhK5Oz4Euxn/gBzMzS+UIQJok88McYR4g/ZK8SJg6NK0wVvY194wnHvh0ar//wbEQrAaZkCcgXk3xu99ZtrjNopmwyAJyBTL3uxyqUWL6eudJEaoIlBaX4exBFI70hf4xBQkVdeE5dPIpSCciQy2ri8NLG3ppbs470Y9oj8R3f/s9pbMdUhi9KXzKWntoJxgnUGM+YADhMfZCdlJAKYucrrbiBdIsRjOmZmE86ZjdWEpx11h7nqHeezEapYWalQ5wvpNDuDvVUp8PzA356ayjgeUS1qkQ/NkwBlhrguEfDJw02YK7bNWlpTDe9PXvdkaL1wRuOfc8BWj8Hv94/I1biktWps5n7xq1ANeHQVe+9hDQ9aTgQo831JvW35cnMvCMGOzeKysTLU4fRI5psV1CzZsD6I+rBKKVPaHFkZMKnOJCe1SnlZWc9WDkVGKhf7YIziZuApp8Xn68ThoPQC7+czX+mxolI=
+  edge: true
+  on:
+    condition: $TRAVIS_OS_NAME = linux
+    node_js: 13
