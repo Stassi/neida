@@ -6,6 +6,7 @@ import createArray from './createArray'
 import flatten from './flatten'
 import identity from './identity'
 import lessThan from './lessThan'
+import map from './map'
 
 export {
   add,
@@ -15,5 +16,6 @@ export {
   createArray,
   flatten,
   identity,
-  lessThan
+  lessThan,
+  map
 }
