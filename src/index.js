@@ -18,6 +18,7 @@ import subtractOne from './subtractOne'
 import sum from './sum'
 import tail from './tail'
 import toArray from './toArray'
+import toObject from './toObject'
 import until from './until'
 
 export {
@@ -41,5 +42,6 @@ export {
   sum,
   tail,
   toArray,
+  toObject,
   until
 }
