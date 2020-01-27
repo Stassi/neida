@@ -7,6 +7,7 @@ import flatten from './flatten'
 import identity from './identity'
 import lessThan from './lessThan'
 import map from './map'
+import minimum from './minimum'
 
 export {
   add,
@@ -17,5 +18,6 @@ export {
   flatten,
   identity,
   lessThan,
-  map
+  map,
+  minimum
 }
