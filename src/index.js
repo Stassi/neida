@@ -21,6 +21,7 @@ import toArray from './toArray'
 import toObject from './toObject'
 import toString from './toString'
 import until from './until'
+import withoutTail from './withoutTail'
 
 export {
   add,
@@ -45,5 +46,6 @@ export {
   toArray,
   toObject,
   toString,
-  until
+  until,
+  withoutTail
 }
