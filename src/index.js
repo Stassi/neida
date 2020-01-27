@@ -1,3 +1,4 @@
+import add from './add'
 import truth from './truth'
 
-export { truth }
+export { add, truth }
