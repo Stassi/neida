@@ -5,6 +5,7 @@ import conditional from './conditional'
 import createArray from './createArray'
 import flatten from './flatten'
 import identity from './identity'
+import lessThan from './lessThan'
 
 export {
   add,
@@ -13,5 +14,6 @@ export {
   conditional,
   createArray,
   flatten,
-  identity
+  identity,
+  lessThan
 }
