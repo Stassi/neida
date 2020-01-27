@@ -1,0 +1,19 @@
+os:
+  - linux
+  - osx
+  - windows
+language: node_js
+node_js:
+  - 8
+  - 10
+  - 12
+  - 13
+  - node
+before_deploy: npm run prepublishOnly
+deploy:
+  provider: npm
+  email: andreas@stassi.net
+  edge: true
+  on:
+    condition: $TRAVIS_OS_NAME = linux
+    node_js: 13
