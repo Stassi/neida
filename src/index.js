@@ -10,6 +10,7 @@ import map from './map'
 import minimum from './minimum'
 import negate from './negate'
 import not from './not'
+import range from './range'
 import strictlyEquals from './strictlyEquals'
 import subtractOne from './subtractOne'
 import tail from './tail'
@@ -28,6 +29,7 @@ export {
   minimum,
   negate,
   not,
+  range,
   strictlyEquals,
   subtractOne,
   tail,
