@@ -10,6 +10,7 @@ import map from './map'
 import minimum from './minimum'
 import negate from './negate'
 import not from './not'
+import until from './until'
 
 export {
   add,
@@ -23,5 +24,6 @@ export {
   map,
   minimum,
   negate,
-  not
+  not,
+  until
 }
