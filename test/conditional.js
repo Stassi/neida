@@ -4,8 +4,8 @@ import { conditional } from '../src'
 
 describe('#conditional', () => {
   const options = {
-    ifFalse: () => false,
-    ifTrue: () => true
+    ifFalse: () => 'falsy',
+    ifTrue: () => 'truthy'
   }
 
   describe('truthy predicate', () => {
@@ -15,7 +15,7 @@ describe('#conditional', () => {
           ...options,
           predicate: () => true
         })
-      ).to.be.true
+      ).to.equal('truthy')
     })
   })
 
@@ -26,7 +26,7 @@ describe('#conditional', () => {
           ...options,
           predicate: () => false
         })
-      ).to.be.false
+      ).to.equal('falsy')
     })
   })
 })
