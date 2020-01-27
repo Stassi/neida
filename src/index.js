@@ -9,6 +9,7 @@ import lessThan from './lessThan'
 import map from './map'
 import minimum from './minimum'
 import negate from './negate'
+import not from './not'
 
 export {
   add,
@@ -21,5 +22,6 @@ export {
   lessThan,
   map,
   minimum,
-  negate
+  negate,
+  not
 }
