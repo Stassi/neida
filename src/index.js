@@ -17,6 +17,7 @@ import strictlyEquals from './strictlyEquals'
 import subtractOne from './subtractOne'
 import sum from './sum'
 import tail from './tail'
+import toArray from './toArray'
 import until from './until'
 
 export {
@@ -39,5 +40,6 @@ export {
   subtractOne,
   sum,
   tail,
+  toArray,
   until
 }
