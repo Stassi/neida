@@ -10,6 +10,7 @@ import map from './map'
 import minimum from './minimum'
 import negate from './negate'
 import not from './not'
+import strictlyEquals from './strictlyEquals'
 import until from './until'
 
 export {
@@ -25,5 +26,6 @@ export {
   minimum,
   negate,
   not,
+  strictlyEquals,
   until
 }
