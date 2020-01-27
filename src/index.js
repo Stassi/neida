@@ -4,6 +4,7 @@ import cardinality from './cardinality'
 import conditional from './conditional'
 import createArray from './createArray'
 import flatten from './flatten'
+import identity from './identity'
 
 export {
   add,
@@ -11,5 +12,6 @@ export {
   cardinality,
   conditional,
   createArray,
-  flatten
+  flatten,
+  identity
 }
