@@ -12,6 +12,7 @@ import negate from './negate'
 import not from './not'
 import strictlyEquals from './strictlyEquals'
 import subtractOne from './subtractOne'
+import tail from './tail'
 import until from './until'
 
 export {
@@ -29,5 +30,6 @@ export {
   not,
   strictlyEquals,
   subtractOne,
+  tail,
   until
 }
