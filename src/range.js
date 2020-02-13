@@ -13,20 +13,20 @@ const range = ({
     initialValue: [minimum],
     predicate: x => strictlyEquals(
       subtractOne(maximum),
-      tail(x),
+      tail(x)
     ),
     transform: x => [
       ...x,
       addOne(
-        tail(x),
-      ),
-    ],
+        tail(x)
+      )
+    ]
   }),
   ifTrue: () => [minimum],
   predicate: () => strictlyEquals(
     maximum,
-    addOne(minimum),
-  ),
+    addOne(minimum)
+  )
 })
 
 export default range
