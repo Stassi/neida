@@ -1,4 +1,5 @@
 import addOne from './addOne'
+import conditional from './conditional'
 import strictlyEquals from './strictlyEquals'
 import subtractOne from './subtractOne'
 import tail from './tail'
@@ -7,18 +8,25 @@ import until from './until'
 const range = ({
   maximum,
   minimum = 0
-}) => until({
-  initialValue: [minimum],
-  predicate: x => strictlyEquals(
-    subtractOne(maximum),
-    tail(x)
+}) => conditional({
+  ifFalse: () => until({
+    initialValue: [minimum],
+    predicate: x => strictlyEquals(
+      subtractOne(maximum),
+      tail(x),
+    ),
+    transform: x => [
+      ...x,
+      addOne(
+        tail(x),
+      ),
+    ],
+  }),
+  ifTrue: () => [minimum],
+  predicate: () => strictlyEquals(
+    maximum,
+    addOne(minimum),
   ),
-  transform: x => [
-    ...x,
-    addOne(
-      tail(x)
-    )
-  ]
 })
 
 export default range
