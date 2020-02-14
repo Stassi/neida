@@ -9,23 +9,30 @@ const range = ({
   maximum,
   minimum = 0
 }) => conditional({
-  ifFalse: () => until({
-    initialValue: [minimum],
-    predicate: x => strictlyEquals(
-      subtractOne(maximum),
-      tail(x)
-    ),
-    transform: x => [
-      ...x,
-      addOne(
+  ifFalse: () => conditional({
+    ifFalse: () => until({
+      initialValue: [minimum],
+      predicate: x => strictlyEquals(
+        subtractOne(maximum),
         tail(x)
-      )
-    ]
+      ),
+      transform: x => [
+        ...x,
+        addOne(
+          tail(x)
+        )
+      ]
+    }),
+    ifTrue: () => [minimum],
+    predicate: () => strictlyEquals(
+      maximum,
+      addOne(minimum)
+    )
   }),
-  ifTrue: () => [minimum],
+  ifTrue: () => [],
   predicate: () => strictlyEquals(
     maximum,
-    addOne(minimum)
+    minimum
   )
 })
 
