@@ -5,6 +5,7 @@ import conditional from './conditional'
 import createArray from './createArray'
 import flatten from './flatten'
 import identity from './identity'
+import length from './length'
 import lessThan from './lessThan'
 import map from './map'
 import minimum from './minimum'
@@ -31,6 +32,7 @@ export {
   createArray,
   flatten,
   identity,
+  length,
   lessThan,
   map,
   minimum,
