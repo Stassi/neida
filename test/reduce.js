@@ -6,7 +6,7 @@ describe('#reduce', () => {
   it('should iteratively transform a set', () => {
     expect(
       reduce({
-        data: 'olleH'.split(''),
+        collection: 'olleH'.split(''),
         initialValue: '',
         reducer: (accumulator, value) => `${value}${accumulator}`
       })
