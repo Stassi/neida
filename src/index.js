@@ -5,6 +5,7 @@ import conditional from './conditional'
 import createArray from './createArray'
 import divide from './divide'
 import entries from './entries'
+import findIndex from './findIndex'
 import flatten from './flatten'
 import head from './head'
 import identity from './identity'
@@ -38,6 +39,7 @@ export {
   createArray,
   divide,
   entries,
+  findIndex,
   flatten,
   head,
   identity,
