@@ -7,6 +7,7 @@ import divide from './divide'
 import entries from './entries'
 import findIndex from './findIndex'
 import flatten from './flatten'
+import forEach from './forEach'
 import head from './head'
 import identity from './identity'
 import length from './length'
@@ -41,6 +42,7 @@ export {
   entries,
   findIndex,
   flatten,
+  forEach,
   head,
   identity,
   length,
