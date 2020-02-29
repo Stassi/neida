@@ -4,6 +4,7 @@ import cardinality from './cardinality'
 import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
+import divide from './divide'
 import flatten from './flatten'
 import identity from './identity'
 import length from './length'
@@ -36,6 +37,7 @@ export {
   chunk,
   conditional,
   createArray,
+  divide,
   flatten,
   identity,
   length,
