@@ -1,5 +1,7 @@
 const reduce = ({
-  data,
+  collection,
+  // TODO: Remove
+  data = collection,
   initialValue,
   reducer
 }) => data.reduce(
