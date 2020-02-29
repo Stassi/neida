@@ -1,10 +1,12 @@
 import flatten from './flatten'
 import negate from './negate'
+import slice from './slice'
 
-const tail = x => flatten(
-  x.slice(
-    negate(1)
-  )
+const tail = collection => flatten(
+  slice({
+    collection,
+    start: negate(1)
+  })
 )
 
 export default tail
