@@ -10,6 +10,7 @@ import length from './length'
 import lessThan from './lessThan'
 import map from './map'
 import minimum from './minimum'
+import multiply from './multiply'
 import negate from './negate'
 import not from './not'
 import range from './range'
@@ -40,6 +41,7 @@ export {
   lessThan,
   map,
   minimum,
+  multiply,
   negate,
   not,
   range,
