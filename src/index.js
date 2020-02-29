@@ -6,6 +6,7 @@ import conditional from './conditional'
 import createArray from './createArray'
 import divide from './divide'
 import flatten from './flatten'
+import head from './head'
 import identity from './identity'
 import length from './length'
 import lessThan from './lessThan'
@@ -39,6 +40,7 @@ export {
   createArray,
   divide,
   flatten,
+  head,
   identity,
   length,
   lessThan,
