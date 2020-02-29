@@ -1,5 +1,3 @@
-import cardinality from './cardinality'
-
-const length = cardinality
+const length = x => x.length
 
 export default length
