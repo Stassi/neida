@@ -13,6 +13,7 @@ import negate from './negate'
 import not from './not'
 import range from './range'
 import reduce from './reduce'
+import slice from './slice'
 import spliceOne from './spliceOne'
 import strictlyEquals from './strictlyEquals'
 import subtractOne from './subtractOne'
@@ -40,6 +41,7 @@ export {
   not,
   range,
   reduce,
+  slice,
   spliceOne,
   strictlyEquals,
   subtractOne,
