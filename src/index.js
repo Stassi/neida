@@ -11,6 +11,7 @@ import forEach from './forEach'
 import head from './head'
 import identity from './identity'
 import includes from './includes'
+import isArray from './isArray'
 import length from './length'
 import lessThan from './lessThan'
 import map from './map'
@@ -47,6 +48,7 @@ export {
   head,
   identity,
   includes,
+  isArray,
   length,
   lessThan,
   map,
