@@ -4,6 +4,7 @@ import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
 import divide from './divide'
+import entries from './entries'
 import flatten from './flatten'
 import head from './head'
 import identity from './identity'
@@ -36,6 +37,7 @@ export {
   conditional,
   createArray,
   divide,
+  entries,
   flatten,
   head,
   identity,
