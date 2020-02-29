@@ -1,26 +1,10 @@
-import conditional from './conditional'
+import substitute from './substitute'
 
-// TODO: Immutable replacement: sliceOne
-const spliceOne = ({
-  data,
-  index,
-  item,
-  withRemoved
-}) => {
-  const removed = data.splice(
-    index,
-    1,
-    item
-  )
+// TODO: Remove
+const spliceOne = ({ data: collection, ...props }) => {
+  console.warn('[neida] deprecated method #spliceOne replaced by #substitute')
 
-  return conditional({
-    ifFalse: () => data,
-    ifTrue: () => ({
-      data,
-      removed
-    }),
-    predicate: () => withRemoved
-  })
+  return substitute({ collection, ...props })
 }
 
 export default spliceOne
