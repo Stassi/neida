@@ -3,9 +3,27 @@ import { expect } from 'chai'
 import { flatten } from '../src'
 
 describe('#flatten', () => {
-  it('should return the element of a 1-member set', () => {
-    expect(
-      flatten(['member'])
-    ).to.equal('member')
+  describe('once-nested array', () => {
+    it('should return a non-nested array of all members including nested', () => {
+      expect(
+        flatten([
+          'a',
+          ['m', 'n'],
+          'r',
+          ['y', 'z']
+        ])
+      ).to.have.ordered.members([
+        'a',
+        'm',
+        'n',
+        'r',
+        'y',
+        'z'
+      ])
+    })
+  })
+
+  describe('multi-nested array', () => {
+    it('should return a non-nested array of all members including recursive nested')
   })
 })
