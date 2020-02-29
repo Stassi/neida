@@ -1,10 +1,11 @@
 import add from './add'
 import addOne from './addOne'
-import cardinality from './cardinality'
 import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
+import divide from './divide'
 import flatten from './flatten'
+import head from './head'
 import identity from './identity'
 import length from './length'
 import lessThan from './lessThan'
@@ -17,8 +18,7 @@ import range from './range'
 import reduce from './reduce'
 import scale from './scale'
 import slice from './slice'
-import spliceOne from './spliceOne'
-import strictlyEquals from './strictlyEquals'
+import strictEqual from './strictEqual'
 import substitute from './substitute'
 import subtractOne from './subtractOne'
 import sum from './sum'
@@ -32,11 +32,12 @@ import withoutTail from './withoutTail'
 export {
   add,
   addOne,
-  cardinality,
   chunk,
   conditional,
   createArray,
+  divide,
   flatten,
+  head,
   identity,
   length,
   lessThan,
@@ -49,8 +50,7 @@ export {
   reduce,
   scale,
   slice,
-  spliceOne,
-  strictlyEquals,
+  strictEqual,
   substitute,
   subtractOne,
   sum,

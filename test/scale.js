@@ -3,7 +3,7 @@ import { expect } from 'chai'
 import { map, scale } from '../src'
 
 const scaleMany = ({ intervals, ...props }) => map({
-  data: intervals,
+  collection: intervals,
   transform: interval => scale({
     interval,
     ...props
