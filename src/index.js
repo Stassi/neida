@@ -12,6 +12,7 @@ import head from './head'
 import identity from './identity'
 import includes from './includes'
 import isArray from './isArray'
+import isNumber from './isNumber'
 import length from './length'
 import lessThan from './lessThan'
 import map from './map'
@@ -49,6 +50,7 @@ export {
   identity,
   includes,
   isArray,
+  isNumber,
   length,
   lessThan,
   map,
