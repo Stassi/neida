@@ -10,6 +10,7 @@ import flatten from './flatten'
 import forEach from './forEach'
 import head from './head'
 import identity from './identity'
+import includes from './includes'
 import length from './length'
 import lessThan from './lessThan'
 import map from './map'
@@ -45,6 +46,7 @@ export {
   forEach,
   head,
   identity,
+  includes,
   length,
   lessThan,
   map,
