@@ -1,10 +1,8 @@
 const reduce = ({
   collection,
-  // TODO: Remove
-  data = collection,
   initialValue,
   reducer
-}) => data.reduce(
+}) => collection.reduce(
   reducer,
   initialValue
 )
