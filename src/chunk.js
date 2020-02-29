@@ -1,7 +1,7 @@
 import add from './add'
 import length from './length'
 import slice from './slice'
-import strictlyEquals from './strictlyEquals'
+import strictEqual from './strictEqual'
 import until from './until'
 
 const chunk = ({
@@ -18,7 +18,7 @@ const chunk = ({
       results: [],
       start: initialStart
     },
-    predicate: ({ start }) => strictlyEquals(
+    predicate: ({ start }) => strictEqual(
       start,
       length(collection)
     ),

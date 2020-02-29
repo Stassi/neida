@@ -1,6 +1,6 @@
 import addOne from './addOne'
 import conditional from './conditional'
-import strictlyEquals from './strictlyEquals'
+import strictEqual from './strictEqual'
 import subtractOne from './subtractOne'
 import tail from './tail'
 import until from './until'
@@ -12,7 +12,7 @@ const range = ({
   ifFalse: () => conditional({
     ifFalse: () => until({
       initialValue: [minimum],
-      predicate: x => strictlyEquals(
+      predicate: x => strictEqual(
         subtractOne(maximum),
         tail(x)
       ),
@@ -24,13 +24,13 @@ const range = ({
       ]
     }),
     ifTrue: () => [minimum],
-    predicate: () => strictlyEquals(
+    predicate: () => strictEqual(
       maximum,
       addOne(minimum)
     )
   }),
   ifTrue: () => [],
-  predicate: () => strictlyEquals(
+  predicate: () => strictEqual(
     maximum,
     minimum
   )

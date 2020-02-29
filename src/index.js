@@ -20,7 +20,7 @@ import reduce from './reduce'
 import scale from './scale'
 import slice from './slice'
 import spliceOne from './spliceOne'
-import strictlyEquals from './strictlyEquals'
+import strictEqual from './strictEqual'
 import substitute from './substitute'
 import subtractOne from './subtractOne'
 import sum from './sum'
@@ -54,7 +54,7 @@ export {
   scale,
   slice,
   spliceOne,
-  strictlyEquals,
+  strictEqual,
   substitute,
   subtractOne,
   sum,
