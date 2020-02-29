@@ -1,5 +1,6 @@
 import conditional from './conditional'
 
+// TODO: Immutable replacement: sliceOne
 const spliceOne = ({
   data,
   index,
