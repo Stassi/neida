@@ -15,6 +15,7 @@ import negate from './negate'
 import not from './not'
 import range from './range'
 import reduce from './reduce'
+import scale from './scale'
 import slice from './slice'
 import spliceOne from './spliceOne'
 import strictlyEquals from './strictlyEquals'
@@ -46,6 +47,7 @@ export {
   not,
   range,
   reduce,
+  scale,
   slice,
   spliceOne,
   strictlyEquals,
