@@ -1,6 +1,5 @@
 import add from './add'
 import addOne from './addOne'
-import cardinality from './cardinality'
 import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
@@ -19,7 +18,6 @@ import range from './range'
 import reduce from './reduce'
 import scale from './scale'
 import slice from './slice'
-import spliceOne from './spliceOne'
 import strictEqual from './strictEqual'
 import substitute from './substitute'
 import subtractOne from './subtractOne'
@@ -34,7 +32,6 @@ import withoutTail from './withoutTail'
 export {
   add,
   addOne,
-  cardinality,
   chunk,
   conditional,
   createArray,
@@ -53,7 +50,6 @@ export {
   reduce,
   scale,
   slice,
-  spliceOne,
   strictEqual,
   substitute,
   subtractOne,
