@@ -17,6 +17,7 @@ import reduce from './reduce'
 import slice from './slice'
 import spliceOne from './spliceOne'
 import strictlyEquals from './strictlyEquals'
+import substitute from './substitute'
 import subtractOne from './subtractOne'
 import sum from './sum'
 import tail from './tail'
@@ -46,6 +47,7 @@ export {
   slice,
   spliceOne,
   strictlyEquals,
+  substitute,
   subtractOne,
   sum,
   tail,
