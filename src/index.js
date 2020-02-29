@@ -1,6 +1,7 @@
 import add from './add'
 import addOne from './addOne'
 import cardinality from './cardinality'
+import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
 import flatten from './flatten'
@@ -29,6 +30,7 @@ export {
   add,
   addOne,
   cardinality,
+  chunk,
   conditional,
   createArray,
   flatten,
