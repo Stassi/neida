@@ -13,6 +13,7 @@ import identity from './identity'
 import includes from './includes'
 import isArray from './isArray'
 import isNumber from './isNumber'
+import isString from './isString'
 import length from './length'
 import lessThan from './lessThan'
 import map from './map'
@@ -53,6 +54,7 @@ export {
   includes,
   isArray,
   isNumber,
+  isString,
   length,
   lessThan,
   map,
