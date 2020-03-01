@@ -36,6 +36,7 @@ import toArray from './toArray'
 import toObject from './toObject'
 import toString from './toString'
 import type from './type'
+import typeIs from './typeIs'
 import until from './until'
 import withoutTail from './withoutTail'
 
@@ -78,6 +79,7 @@ export {
   toObject,
   toString,
   type,
+  typeIs,
   until,
   withoutTail
 }
