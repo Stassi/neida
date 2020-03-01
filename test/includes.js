@@ -12,7 +12,7 @@ describe('#includes', () => {
       ).to.equal(true)
     })
 
-    it('should return true if the array does not contain the element', () => {
+    it('should return false if the array does not contain the element', () => {
       expect(
         includes({ collection, element: 'x' })
       ).to.equal(false)
