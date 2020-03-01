@@ -2,7 +2,7 @@ import { describe, it } from 'mocha'
 import { expect } from 'chai'
 import { values } from '../src'
 
-describe('values', () => {
+describe('#values', () => {
   it('should return the values of an object', () => {
     expect(
       values({
