@@ -34,6 +34,7 @@ import toObject from './toObject'
 import toString from './toString'
 import typeIs from './typeIs'
 import until from './until'
+import values from './values'
 import withoutTail from './withoutTail'
 
 export {
@@ -73,5 +74,6 @@ export {
   toString,
   typeIs,
   until,
+  values,
   withoutTail
 }
