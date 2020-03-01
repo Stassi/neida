@@ -5,7 +5,9 @@ import conditional from './conditional'
 import deduplicate from './deduplicate'
 import divide from './divide'
 import duplicate from './duplicate'
+import empty from './empty'
 import entries from './entries'
+import equalLengths from './equalLengths'
 import findIndex from './findIndex'
 import flatten from './flatten'
 import forEach from './forEach'
@@ -39,6 +41,7 @@ import values from './values'
 import withoutHead from './withoutHead'
 import withoutIndex from './withoutIndex'
 import withoutTail from './withoutTail'
+import zip from './zip'
 
 export {
   add,
@@ -48,7 +51,9 @@ export {
   deduplicate,
   divide,
   duplicate,
+  empty,
   entries,
+  equalLengths,
   findIndex,
   flatten,
   forEach,
@@ -81,5 +86,6 @@ export {
   values,
   withoutHead,
   withoutIndex,
-  withoutTail
+  withoutTail,
+  zip
 }
