@@ -20,6 +20,7 @@ import minimum from './minimum'
 import multiply from './multiply'
 import negate from './negate'
 import not from './not'
+import or from './or'
 import range from './range'
 import reduce from './reduce'
 import scale from './scale'
@@ -58,6 +59,7 @@ export {
   multiply,
   negate,
   not,
+  or,
   range,
   reduce,
   scale,
