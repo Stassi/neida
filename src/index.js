@@ -21,6 +21,7 @@ import multiply from './multiply'
 import negate from './negate'
 import not from './not'
 import or from './or'
+import properties from './properties'
 import range from './range'
 import reduce from './reduce'
 import scale from './scale'
@@ -60,6 +61,7 @@ export {
   negate,
   not,
   or,
+  properties,
   range,
   reduce,
   scale,
