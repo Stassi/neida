@@ -1,8 +1,15 @@
-// TODO: Slice
-const withoutIndex = ({ collection, index }) => {
-  const mutableCollection = [...collection]
-  mutableCollection.splice(index, 1)
-  return mutableCollection
-}
+import addOne from './addOne'
+import slice from './slice'
+
+const withoutIndex = ({ collection, index }) => [
+  ...slice({
+    collection,
+    end: index
+  }),
+  ...slice({
+    collection,
+    start: addOne(index)
+  })
+]
 
 export default withoutIndex
