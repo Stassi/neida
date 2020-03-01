@@ -1,11 +1,11 @@
 import { describe, it } from 'mocha'
 import { expect } from 'chai'
-import { createArray } from '../src'
+import { duplicate } from '../src'
 
-describe('#createArray', () => {
-  it('should generate an array', () => {
+describe('#duplicate', () => {
+  it('should generate an array of the same element and a specified length', () => {
     expect(
-      createArray({
+      duplicate({
         length: 5,
         value: 'b'
       })

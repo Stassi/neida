@@ -2,8 +2,9 @@ import add from './add'
 import addOne from './addOne'
 import chunk from './chunk'
 import conditional from './conditional'
-import createArray from './createArray'
+import deduplicate from './deduplicate'
 import divide from './divide'
+import duplicate from './duplicate'
 import entries from './entries'
 import findIndex from './findIndex'
 import flatten from './flatten'
@@ -35,6 +36,8 @@ import toString from './toString'
 import typeIs from './typeIs'
 import until from './until'
 import values from './values'
+import withoutHead from './withoutHead'
+import withoutIndex from './withoutIndex'
 import withoutTail from './withoutTail'
 
 export {
@@ -42,8 +45,9 @@ export {
   addOne,
   chunk,
   conditional,
-  createArray,
+  deduplicate,
   divide,
+  duplicate,
   entries,
   findIndex,
   flatten,
@@ -75,5 +79,7 @@ export {
   typeIs,
   until,
   values,
+  withoutHead,
+  withoutIndex,
   withoutTail
 }

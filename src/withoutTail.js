@@ -1,3 +1,4 @@
+// TODO: Slice
 const withoutTail = x => {
   x.pop()
   return x
