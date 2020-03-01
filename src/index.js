@@ -5,6 +5,7 @@ import conditional from './conditional'
 import deduplicate from './deduplicate'
 import divide from './divide'
 import duplicate from './duplicate'
+import empty from './empty'
 import entries from './entries'
 import findIndex from './findIndex'
 import flatten from './flatten'
@@ -48,6 +49,7 @@ export {
   deduplicate,
   divide,
   duplicate,
+  empty,
   entries,
   findIndex,
   flatten,
