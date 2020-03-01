@@ -3,7 +3,31 @@ import { expect } from 'chai'
 import { length } from '../src'
 
 describe('#length', () => {
-  it('should count the elements in an array including duplicates', () => {
-    expect(length([1, 2, 4])).to.equal(3)
+  describe('with array', () => {
+    const collection = ['a', 'b', 'c']
+
+    it('should count the total elements in an array', () => {
+      expect(length(collection)).to.equal(3)
+    })
+  })
+
+  describe('with object', () => {
+    const collection = {
+      a: 10,
+      b: 30,
+      c: 60
+    }
+
+    it('should count the total entries in an object', () => {
+      expect(length(collection)).to.equal(3)
+    })
+  })
+
+  describe('with string', () => {
+    const collection = 'abc'
+
+    it('should count the total characters in a string', () => {
+      expect(length(collection)).to.equal(3)
+    })
   })
 })
