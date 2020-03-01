@@ -41,6 +41,7 @@ import values from './values'
 import withoutHead from './withoutHead'
 import withoutIndex from './withoutIndex'
 import withoutTail from './withoutTail'
+import zip from './zip'
 
 export {
   add,
@@ -85,5 +86,6 @@ export {
   values,
   withoutHead,
   withoutIndex,
-  withoutTail
+  withoutTail,
+  zip
 }
