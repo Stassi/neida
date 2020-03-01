@@ -2,8 +2,8 @@ import add from './add'
 import addOne from './addOne'
 import chunk from './chunk'
 import conditional from './conditional'
-import createArray from './createArray'
 import deduplicate from './deduplicate'
+import duplicate from './duplicate'
 import divide from './divide'
 import entries from './entries'
 import findIndex from './findIndex'
@@ -45,8 +45,8 @@ export {
   addOne,
   chunk,
   conditional,
-  createArray,
   deduplicate,
+  duplicate,
   divide,
   entries,
   findIndex,
