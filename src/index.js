@@ -3,8 +3,8 @@ import addOne from './addOne'
 import chunk from './chunk'
 import conditional from './conditional'
 import deduplicate from './deduplicate'
-import duplicate from './duplicate'
 import divide from './divide'
+import duplicate from './duplicate'
 import entries from './entries'
 import findIndex from './findIndex'
 import flatten from './flatten'
@@ -46,8 +46,8 @@ export {
   chunk,
   conditional,
   deduplicate,
-  duplicate,
   divide,
+  duplicate,
   entries,
   findIndex,
   flatten,
