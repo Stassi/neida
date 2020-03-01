@@ -35,6 +35,7 @@ import toString from './toString'
 import typeIs from './typeIs'
 import until from './until'
 import values from './values'
+import withoutHead from './withoutHead'
 import withoutTail from './withoutTail'
 
 export {
@@ -75,5 +76,6 @@ export {
   typeIs,
   until,
   values,
+  withoutHead,
   withoutTail
 }
