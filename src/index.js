@@ -18,6 +18,8 @@ import minimum from './minimum'
 import multiply from './multiply'
 import negate from './negate'
 import not from './not'
+import or from './or'
+import properties from './properties'
 import range from './range'
 import reduce from './reduce'
 import scale from './scale'
@@ -30,7 +32,9 @@ import tail from './tail'
 import toArray from './toArray'
 import toObject from './toObject'
 import toString from './toString'
+import typeIs from './typeIs'
 import until from './until'
+import values from './values'
 import withoutTail from './withoutTail'
 
 export {
@@ -54,6 +58,8 @@ export {
   multiply,
   negate,
   not,
+  or,
+  properties,
   range,
   reduce,
   scale,
@@ -66,6 +72,8 @@ export {
   toArray,
   toObject,
   toString,
+  typeIs,
   until,
+  values,
   withoutTail
 }
