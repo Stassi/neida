@@ -3,6 +3,7 @@ import addOne from './addOne'
 import chunk from './chunk'
 import conditional from './conditional'
 import createArray from './createArray'
+import deduplicate from './deduplicate'
 import divide from './divide'
 import entries from './entries'
 import findIndex from './findIndex'
@@ -45,6 +46,7 @@ export {
   chunk,
   conditional,
   createArray,
+  deduplicate,
   divide,
   entries,
   findIndex,
