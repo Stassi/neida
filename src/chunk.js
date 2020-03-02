@@ -4,10 +4,30 @@ import slice from './slice'
 import strictEqual from './strictEqual'
 import until from './until'
 
-const chunk = ({
-  collection,
-  length: chunkLength
-}) => {
+/**
+ * @description Any type.
+ * @typedef {*} Any
+ */
+
+/**
+ * @description Group elements into fixed-length chunks.
+ * @example
+ * chunk({
+ *   collection: ['a', 'b', 'c', 'd', 'e', 'f'],
+ *   length: 2
+ * })
+ * // => [
+ * //  ['a', 'b'],
+ * //  ['c', 'd'],
+ * //  ['e', 'f']
+ * // ]
+ * @module
+ * @param {Object} x
+ * @param {Any[]} x.collection
+ * @param {number} x.length
+ * @returns {Any[][]} fixed-length chunks
+ */
+export default function chunk ({ collection, length: chunkLength }) {
   const addChunkLength = x => add(x, chunkLength)
 
   const initialStart = 0
@@ -40,5 +60,3 @@ const chunk = ({
     })
   }).results
 }
-
-export default chunk

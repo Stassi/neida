@@ -24,7 +24,11 @@ const rollupConfig = [
     babel({
       exclude: 'node_modules/**'
     }),
-    terser()
+    terser({
+      output: {
+        comments: 'all'
+      }
+    })
   ]
 }))
 
