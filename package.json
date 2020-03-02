@@ -12,8 +12,8 @@
   "module": "./lib/neida.esm.js",
   "sideEffects": false,
   "scripts": {
-    "build": "npm run document && rollup -c",
-    "document": "jsdoc2md --template README.hbs src/*.js > README.md",
+    "build": "rollup -c",
+    "document": "jsdoc2md src/*.js > api.md",
     "lint": "standard",
     "prepublishOnly": "npm run build",
     "test": "npm run lint && mocha"
