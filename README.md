@@ -36,7 +36,7 @@
 Add two values.
 
 **Returns**: <code>number</code> - sum of x and y  
-**See**: [addOne](addOne)  
+**See**: [addOne](#addOne)  
 
 | Param | Type |
 | --- | --- |
@@ -53,7 +53,7 @@ sum(2, 3)// => 5
 Increment value by 1.
 
 **Returns**: <code>number</code> - x incremented by 1  
-**See**: [add](add)  
+**See**: [add](#add)  
 
 | Param | Type |
 | --- | --- |
