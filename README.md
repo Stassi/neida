@@ -88,9 +88,9 @@ Group elements into fixed-length chunks.
 
 | Param | Type |
 | --- | --- |
-| x | <code>Object</code> | 
-| x.collection | [<code>Array.&lt;Any&gt;</code>](#Any) | 
-| x.length | <code>number</code> | 
+| o | <code>Object</code> | 
+| o.collection | [<code>Array.&lt;Any&gt;</code>](#Any) | 
+| o.length | <code>number</code> | 
 
 **Example**  
 ```js
