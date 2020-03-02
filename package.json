@@ -1,6 +1,6 @@
 {
   "name": "neida",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Functional utilities",
   "license": "MIT",
   "repository": "github:Stassi/neida",
@@ -13,6 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "rollup -c",
+    "document": "jsdoc2md src/*.js > api.md",
     "lint": "standard",
     "prepublishOnly": "npm run build",
     "test": "npm run lint && mocha"
@@ -25,6 +26,7 @@
     "@rollup/plugin-node-resolve": "^7.1.1",
     "chai": "^4.2.0",
     "core-js": "^3.6.4",
+    "jsdoc-to-markdown": "^5.0.3",
     "mocha": "^7.1.0",
     "rollup": "^1.32.0",
     "rollup-plugin-babel": "^4.3.3",
