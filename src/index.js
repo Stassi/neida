@@ -42,3 +42,5 @@ export { default as withoutHead } from './withoutHead'
 export { default as withoutIndex } from './withoutIndex'
 export { default as withoutTail } from './withoutTail'
 export { default as zip } from './zip'
+
+// TODO: Documentation script should generate anchors from partial
