@@ -13,7 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "rollup -c",
-    "document": "jsdoc2md src/*.js > api.md",
+    "document": "jsdoc2md --template README.hbs src/*.js > README.md",
     "lint": "standard",
     "prepublishOnly": "npm run build",
     "test": "npm run lint && mocha"
