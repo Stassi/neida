@@ -9,6 +9,7 @@ import until from './until'
  * @typedef {*} Any
  */
 
+// TODO: @see flatten
 /**
  * @description Group elements into fixed-length chunks.
  * @example
