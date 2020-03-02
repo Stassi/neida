@@ -8,8 +8,6 @@
 [![node supported versions][node badge]][package file]
 [![npm latest version][npm badge]][npm url]
 
-{{>main}}
-
 [bundlephobia badge]: https://img.shields.io/bundlephobia/min/neida.svg
 [bundlephobia badge zip]: https://img.shields.io/bundlephobia/minzip/neida.svg
 [bundlephobia url]: https://bundlephobia.com/result?p=neida (bundlephobia: neida)
