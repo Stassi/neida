@@ -1,91 +1,44 @@
-import add from './add'
-import addOne from './addOne'
-import chunk from './chunk'
-import conditional from './conditional'
-import deduplicate from './deduplicate'
-import divide from './divide'
-import duplicate from './duplicate'
-import empty from './empty'
-import entries from './entries'
-import equalLengths from './equalLengths'
-import findIndex from './findIndex'
-import flatten from './flatten'
-import forEach from './forEach'
-import head from './head'
-import identity from './identity'
-import includes from './includes'
-import length from './length'
-import lessThan from './lessThan'
-import map from './map'
-import minimum from './minimum'
-import multiply from './multiply'
-import negate from './negate'
-import not from './not'
-import or from './or'
-import properties from './properties'
-import range from './range'
-import reduce from './reduce'
-import scale from './scale'
-import slice from './slice'
-import strictEqual from './strictEqual'
-import substitute from './substitute'
-import subtractOne from './subtractOne'
-import sum from './sum'
-import tail from './tail'
-import toArray from './toArray'
-import toObject from './toObject'
-import toString from './toString'
-import typeIs from './typeIs'
-import until from './until'
-import values from './values'
-import withoutHead from './withoutHead'
-import withoutIndex from './withoutIndex'
-import withoutTail from './withoutTail'
-import zip from './zip'
-
-export {
-  add,
-  addOne,
-  chunk,
-  conditional,
-  deduplicate,
-  divide,
-  duplicate,
-  empty,
-  entries,
-  equalLengths,
-  findIndex,
-  flatten,
-  forEach,
-  head,
-  identity,
-  includes,
-  length,
-  lessThan,
-  map,
-  minimum,
-  multiply,
-  negate,
-  not,
-  or,
-  properties,
-  range,
-  reduce,
-  scale,
-  slice,
-  strictEqual,
-  substitute,
-  subtractOne,
-  sum,
-  tail,
-  toArray,
-  toObject,
-  toString,
-  typeIs,
-  until,
-  values,
-  withoutHead,
-  withoutIndex,
-  withoutTail,
-  zip
-}
+export { default as add } from './add'
+export { default as addOne } from './addOne'
+export { default as chunk } from './chunk'
+export { default as conditional } from './conditional'
+export { default as deduplicate } from './deduplicate'
+export { default as divide } from './divide'
+export { default as duplicate } from './duplicate'
+export { default as empty } from './empty'
+export { default as entries } from './entries'
+export { default as equalLengths } from './equalLengths'
+export { default as findIndex } from './findIndex'
+export { default as flatten } from './flatten'
+export { default as forEach } from './forEach'
+export { default as head } from './head'
+export { default as identity } from './identity'
+export { default as includes } from './includes'
+export { default as length } from './length'
+export { default as lessThan } from './lessThan'
+export { default as map } from './map'
+export { default as minimum } from './minimum'
+export { default as multiply } from './multiply'
+export { default as negate } from './negate'
+export { default as not } from './not'
+export { default as or } from './or'
+export { default as properties } from './properties'
+export { default as range } from './range'
+export { default as reduce } from './reduce'
+export { default as scale } from './scale'
+export { default as slice } from './slice'
+export { default as strictEqual } from './strictEqual'
+export { default as substitute } from './substitute'
+export { default as subtractOne } from './subtractOne'
+export { default as sum } from './sum'
+export { default as tail } from './tail'
+export { default as toArray } from './toArray'
+export { default as toObject } from './toObject'
+export { default as toString } from './toString'
+export { default as typeIs } from './typeIs'
+export { default as until } from './until'
+export { default as values } from './values'
+export { default as withoutHead } from './withoutHead'
+export { default as withoutIndex } from './withoutIndex'
+export { default as withoutTail } from './withoutTail'
+export { default as zip } from './zip'
