@@ -41,7 +41,7 @@
 ## add ⇒ <code>number</code>
 Add two values.
 
-**Returns**: <code>number</code> - sum of x and y  
+**Returns**: <code>number</code> - sum of both values  
 **See**
 
 - [addOne](#module_addOne)
@@ -50,8 +50,8 @@ Add two values.
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
-| y | <code>number</code> | 
+| n | <code>number</code> | 
+| m | <code>number</code> | 
 
 **Example**  
 ```js
@@ -63,7 +63,7 @@ sum(2, 3)
 ## addOne ⇒ <code>number</code>
 Increment value by 1.
 
-**Returns**: <code>number</code> - x incremented by 1  
+**Returns**: <code>number</code> - value incremented by 1  
 **See**
 
 - [add](#module_add)
@@ -72,7 +72,7 @@ Increment value by 1.
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
+| n | <code>number</code> | 
 
 **Example**  
 ```js
@@ -109,12 +109,12 @@ chunk({
 ## subtractOne ⇒ <code>number</code>
 Decrement value by 1.
 
-**Returns**: <code>number</code> - x decremented by 1  
-**See**: [addOne](#module_addOne)  
+**Returns**: <code>number</code> - value decremented by 1  
+**See**: [addOne](#module_addOne)
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
+| n | <code>number</code> | 
 
 **Example**  
 ```js
