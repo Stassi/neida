@@ -23,6 +23,9 @@
 <dt><a href="#module_subtractOne">subtractOne</a> ⇒ <code>number</code></dt>
 <dd><p>Decrement value by 1.</p>
 </dd>
+<dt><a href="#module_sum">sum</a> ⇒ <code>number</code></dt>
+<dd><p>Sum multiple values.</p>
+</dd>
 </dl>
 
 ## Typedefs
@@ -39,7 +42,11 @@
 Add two values.
 
 **Returns**: <code>number</code> - sum of x and y  
-**See**: [addOne](#module_addOne)
+**See**
+
+- [addOne](#module_addOne)
+- [sum](#module_sum)
+
 
 | Param | Type |
 | --- | --- |
@@ -113,6 +120,23 @@ Decrement value by 1.
 ```js
 subtractOne(5)
 // => 4
+```
+<a name="module_sum"></a>
+
+## sum ⇒ <code>number</code>
+Sum multiple values.
+
+**Returns**: <code>number</code> - sum of arguments  
+**See**: [add](#module_add)
+
+| Param | Type |
+| --- | --- |
+| ...n | <code>number</code> | 
+
+**Example**  
+```js
+sum(2, 3, 5)
+// => 10
 ```
 <a name="Any"></a>
 

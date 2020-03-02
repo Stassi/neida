@@ -8,6 +8,7 @@
  * @param {number} y
  * @returns {number} sum of x and y
  * @see {@link addOne}
+ * @see {@link sum}
  */
 export default function add (x, y) {
   return x + y
