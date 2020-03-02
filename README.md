@@ -20,6 +20,9 @@
 <dt><a href="#module_chunk">chunk</a> ⇒ <code>Array.&lt;Array.&lt;Any&gt;&gt;</code></dt>
 <dd><p>Group elements into fixed-length chunks.</p>
 </dd>
+<dt><a href="#module_subtractOne">subtractOne</a> ⇒ <code>number</code></dt>
+<dd><p>Decrement value by 1.</p>
+</dd>
 </dl>
 
 ## Typedefs
@@ -36,7 +39,7 @@
 Add two values.
 
 **Returns**: <code>number</code> - sum of x and y  
-**See**: [addOne](#module_addOne)  
+**See**: [addOne](#module_addOne)
 
 | Param | Type |
 | --- | --- |
@@ -54,7 +57,11 @@ sum(2, 3)
 Increment value by 1.
 
 **Returns**: <code>number</code> - x incremented by 1  
-**See**: [add](#module_add)  
+**See**
+
+- [add](#module_add)
+- [subtractOne](#module_subtractOne)
+
 
 | Param | Type |
 | --- | --- |
@@ -89,6 +96,23 @@ chunk({
 //  ['c', 'd'],
 //  ['e', 'f']
 // ]
+```
+<a name="module_subtractOne"></a>
+
+## subtractOne ⇒ <code>number</code>
+Decrement value by 1.
+
+**Returns**: <code>number</code> - x decremented by 1  
+**See**: [addOne](#module_addOne)  
+
+| Param | Type |
+| --- | --- |
+| x | <code>number</code> | 
+
+**Example**  
+```js
+subtractOne(5)
+// => 4
 ```
 <a name="Any"></a>
 
