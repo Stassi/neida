@@ -36,7 +36,7 @@
 Add two values.
 
 **Returns**: <code>number</code> - sum of x and y  
-**See**: [addOne](addOne)  
+**See**: [addOne](#module_addOne)  
 
 | Param | Type |
 | --- | --- |
@@ -45,7 +45,8 @@ Add two values.
 
 **Example**  
 ```js
-sum(2, 3)// => 5
+sum(2, 3)
+// => 5
 ```
 <a name="module_addOne"></a>
 
@@ -53,7 +54,7 @@ sum(2, 3)// => 5
 Increment value by 1.
 
 **Returns**: <code>number</code> - x incremented by 1  
-**See**: [add](add)  
+**See**: [add](#module_add)  
 
 | Param | Type |
 | --- | --- |
@@ -61,7 +62,8 @@ Increment value by 1.
 
 **Example**  
 ```js
-addOne(5)// => 6
+addOne(5)
+// => 6
 ```
 <a name="module_chunk"></a>
 
@@ -78,7 +80,15 @@ Group elements into fixed-length chunks.
 
 **Example**  
 ```js
-chunk({  collection: ['a', 'b', 'c', 'd', 'e', 'f'],  length: 2})// => [//  ['a', 'b'],//  ['c', 'd'],//  ['e', 'f']// ]
+chunk({
+  collection: ['a', 'b', 'c', 'd', 'e', 'f'],
+  length: 2
+})
+// => [
+//  ['a', 'b'],
+//  ['c', 'd'],
+//  ['e', 'f']
+// ]
 ```
 <a name="Any"></a>
 
