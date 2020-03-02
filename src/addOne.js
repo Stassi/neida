@@ -8,6 +8,8 @@ import add from './add'
  * @module
  * @param {number} x
  * @returns {number} x incremented by 1
+ * @see {@link add}
+ * @see {@link subtractOne}
  */
 export default function addOne (x) {
   // TODO: Rename as #increment
