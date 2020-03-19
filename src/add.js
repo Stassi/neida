@@ -4,11 +4,12 @@
  * sum(2, 3)
  * // => 5
  * @module
- * @param {number} x
- * @param {number} y
- * @returns {number} sum of x and y
+ * @param {number} n
+ * @param {number} m
+ * @returns {number} sum of both values
  * @see {@link addOne}
+ * @see {@link sum}
  */
-export default function add (x, y) {
-  return x + y
+export default function add (n, m) {
+  return n + m
 }

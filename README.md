@@ -23,6 +23,9 @@
 <dt><a href="#module_subtractOne">subtractOne</a> ⇒ <code>number</code></dt>
 <dd><p>Decrement value by 1.</p>
 </dd>
+<dt><a href="#module_sum">sum</a> ⇒ <code>number</code></dt>
+<dd><p>Sum multiple values.</p>
+</dd>
 </dl>
 
 ## Typedefs
@@ -38,13 +41,17 @@
 ## add ⇒ <code>number</code>
 Add two values.
 
-**Returns**: <code>number</code> - sum of x and y  
-**See**: [addOne](#module_addOne)
+**Returns**: <code>number</code> - sum of both values  
+**See**
+
+- [addOne](#module_addOne)
+- [sum](#module_sum)
+
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
-| y | <code>number</code> | 
+| n | <code>number</code> | 
+| m | <code>number</code> | 
 
 **Example**  
 ```js
@@ -56,7 +63,7 @@ sum(2, 3)
 ## addOne ⇒ <code>number</code>
 Increment value by 1.
 
-**Returns**: <code>number</code> - x incremented by 1  
+**Returns**: <code>number</code> - value incremented by 1  
 **See**
 
 - [add](#module_add)
@@ -65,7 +72,7 @@ Increment value by 1.
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
+| n | <code>number</code> | 
 
 **Example**  
 ```js
@@ -81,9 +88,9 @@ Group elements into fixed-length chunks.
 
 | Param | Type |
 | --- | --- |
-| x | <code>Object</code> | 
-| x.collection | [<code>Array.&lt;Any&gt;</code>](#Any) | 
-| x.length | <code>number</code> | 
+| o | <code>Object</code> | 
+| o.collection | [<code>Array.&lt;Any&gt;</code>](#Any) | 
+| o.length | <code>number</code> | 
 
 **Example**  
 ```js
@@ -102,17 +109,34 @@ chunk({
 ## subtractOne ⇒ <code>number</code>
 Decrement value by 1.
 
-**Returns**: <code>number</code> - x decremented by 1  
-**See**: [addOne](#module_addOne)  
+**Returns**: <code>number</code> - value decremented by 1  
+**See**: [addOne](#module_addOne)
 
 | Param | Type |
 | --- | --- |
-| x | <code>number</code> | 
+| n | <code>number</code> | 
 
 **Example**  
 ```js
 subtractOne(5)
 // => 4
+```
+<a name="module_sum"></a>
+
+## sum ⇒ <code>number</code>
+Sum multiple values.
+
+**Returns**: <code>number</code> - sum of arguments  
+**See**: [add](#module_add)
+
+| Param | Type |
+| --- | --- |
+| ...n | <code>number</code> | 
+
+**Example**  
+```js
+sum(2, 3, 5)
+// => 10
 ```
 <a name="Any"></a>
 

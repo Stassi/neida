@@ -23,9 +23,9 @@ import until from './until'
  * //  ['e', 'f']
  * // ]
  * @module
- * @param {Object} x
- * @param {Any[]} x.collection
- * @param {number} x.length
+ * @param {Object} o
+ * @param {Any[]} o.collection
+ * @param {number} o.length
  * @returns {Any[][]} fixed-length chunks
  */
 export default function chunk ({ collection, length: chunkLength }) {
